@@ -1,0 +1,101 @@
+h1,
+h2 {
+    font-family: monospace;
+    color: lightcyan;
+}
+
+body {
+    background-color: #d8e2dc;
+}
+
+button {
+    font-size: 20px;
+    background-color: #d9d9d9;
+}
+
+#signup {
+    background-color: aquamarine;
+}
+
+.post a {
+    color: #284b63;
+    text-decoration: none;
+}
+
+footer a {
+    color: red;
+}
+
+h2+button {
+    font-size: 15px;
+    background-color: cadetblue;
+}
+
+footer>a {
+    color: darkcyan;
+}
+
+input[type="password"] {
+    color:
+        red;
+}
+
+section[class="post"] {
+    color: darkorange;
+}
+
+a[href="www.google.com"] {
+    color: rgb(80, 23, 51);
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.post button:active {
+    background-color: darkred;
+}
+
+button:active {
+    background-color: darkcyan
+}
+
+.signup:active {
+    background-color: darkcyan;
+}
+
+.post {
+    background-color: darkgray;
+}
+
+.post:nth-of-type(3n) {
+    background-color: darkslateblue;
+}
+
+h1 ::first-letter {
+    font-size: xx-large;
+}
+
+p::first-line {
+    background-color: yellow;
+}
+
+::Selection {
+    background-color: orange;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 50px;
+}
+
+button {
+    background-color: rgb(80, 23, 51) !important;
+}

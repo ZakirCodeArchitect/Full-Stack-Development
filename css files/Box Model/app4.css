@@ -1,0 +1,52 @@
+h1 {
+    padding-left: 10px;
+    width: 300px;
+    color: white;
+    background-color: red;
+
+}
+
+#one {
+    padding-top: 5px;
+    color: rgb(219, 201, 228);
+    width: 200px;
+    background-color: maroon;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+#two {
+    color: rgb(219, 201, 228);
+    width: 200px;
+    background-color: maroon;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+
+#three {
+    margin-top: 20px;
+    color: black;
+    width: 200px;
+    background-color: white;
+    border: 4px solid black;
+    border-left-style: dotted;
+
+}
+
+button {
+    padding: 20px 20px 20px 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+span {
+    margin: 50px;
+}

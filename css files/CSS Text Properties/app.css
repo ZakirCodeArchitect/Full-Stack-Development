@@ -1,0 +1,16 @@
+h1 {
+    color: mediumslateblue;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: yellow underline;
+    text-decoration-style: wavy;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+p {
+    text-align: left;
+    line-height: 2.5;
+    letter-spacing: 2px;
+    font-weight: 700;
+}

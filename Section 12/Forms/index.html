@@ -1,0 +1,69 @@
+<!DOCTYPE html <html langen">
+
+<head>
+    <meta charsetUTF-8">
+    <meta name="port" content="widthdevice-width,-scale=1.0">
+    <title>Bootstrap Forms</title> <!-- Add this line to link to the Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <h1 class="display-3 text-center animated fadeInDown">Registration Form</h1>
+    <div class="container">
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-md-6 animated fadeInLeft"> <label for="Fname" class="form-label-custom">First
+                        Name</label> <input type="text" id="Fname" class="form-control form-control-custom"
+                        placeholder="First Name"> </div>
+                <div class="form-group col-md-6 animated fadeInRight"> <label for="Lname" class="form-label-custom">Last
+                        Name</label> <input type="text" id="Lname" class="form-control form-control-custom"
+                        placeholder="Last Name"> </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6 animated fadeInLeft"> <label for="email"
+                        class="form-label-custom">Email</label> <input type="email"
+                        class="form-control form-control-custom" id="email" placeholder="@gmail.com"> </div>
+                <div class="form-group col-md-6 animated fadeInRight"> <label for="password"
+                        class="form-label-custom">Password</label> <input class="form-control form-control-custom"
+                        type="password" id="password" placeholder="password"> </div>
+            </div>
+            <div class="form-group animated fadeInUp"> <label for="Address" class="form-label-custom">Address</label>
+                <input class="form-control form-control-custom" type="text" id="Address" placeholder="DHA Phase 2">
+            </div>
+            <div class="form-row animated fadeInUp">
+                <div class="form-group col-md-6"> <label for="select" class="form-label-custom">Select Country</label>
+                    <select name="select" id="select" class="form-control form-control-custom">
+                        <option value="PK">Pakistan</option>
+                        <option value="T">Turkey</option>
+                        <option value="SA">Saudia Arabia</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-3 animated fadeInUp"> <label for="City"
+                        class="form-label-custom">City</label> <input type="text"
+                        class="form-control form-control-custom" id="City" placeholder="City"> </div>
+                <div class="form-group col-md-3 animated fadeInUp"> <label for="ZIPCode" class="form-label-custom">Zip
+                        Code</label> <input type="number" class="form-control form-control-custom" id="ZIPCode"> </div>
+            </div>
+            <div class="form-group animated fadeInUp">
+                <div class="custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input"
+                        id="custom-checkbox"> <label class="custom-control-label form-label-custom"
+                        for="custom-checkbox">Sign me up</label> </div>
+            </div>
+            <button type="button" class="btn btn-success animated fadeInUp">Register</button>
+
+        </form>
+    </div> <!-- Add this line to link to the Bootstrap JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+        integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

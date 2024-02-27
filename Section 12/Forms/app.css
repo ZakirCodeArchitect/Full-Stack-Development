@@ -1,0 +1,7 @@
+body { background-color: #f5f5f5; }
+
+.form-control-custom { border-radius: 0; border: 2px solid #007bff; }
+
+.form-control-custom:focus { box-shadow: none; border-color: #007bff; }
+
+.form-label-custom { font-weight: bold; }

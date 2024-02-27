@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(0, 128, 128);
+}
+
+button {
+    color: indigo;
+    background-color: papayawhip;
+}
+
+p {
+    color: whitesmoke;
+    background: grey;
+}
+
+body {
+    background-color: #E6E6FA;
+}

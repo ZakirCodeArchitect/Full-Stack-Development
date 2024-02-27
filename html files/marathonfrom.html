@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Section 5 </title>
+</head>
+
+<body>
+    <h1>Marathon Registration Intro</h1>
+
+    <form action="/form">
+        <label for="firstname">Enter your first name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="firstname" required>
+
+
+        <label for="lastname">Enter your last name</label>
+        <input type="text" id="lastname" name="lastname" placeholder="lastname" required>
+
+        <h2>Select your Race Type :</h2>
+
+        <p>
+            <input type="radio" id="5k" name="race" value="5krun">
+            <label for="5k">For 5K</label>
+        </p>
+        <p>
+            <input type="radio" id="half" name="race" value="half marathon">
+            <label for="half">Half Marathon</label>
+        </p>
+        <p>
+            <input type="radio" id="full" name="race" value="full marathon">
+            <label for="full">Full Marathon</label>
+        </p>
+        <div>
+            <label for="email">Enter your email</label>
+            <input type="email" id="email" placeholder="email" required>
+        </div>
+
+        <p>
+            <label for="pass">Enter your password</label>
+            <input type="password" id="pass" placeholder="password" required>
+        </p>
+
+        <p>
+            <label for="menu">Select your age</label>
+            <select name="age" id="menu">
+                <option value="Below 18">Below 18</option>
+                <option value="18 - 22"> 18 - 22</option>
+                <option value="Above 22 ">Above 22</option>
+            </select>
+        </p>
+        <button>Register</button>
+    </form>
+</body>
+
+</html>

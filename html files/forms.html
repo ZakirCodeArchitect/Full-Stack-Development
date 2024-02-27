@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Demo</title>
+</head>
+
+<body>
+    <h1>Forms Demo : </h1>
+    <form action="/reddit">
+
+        <button>
+            Please donot submmit the form
+        </button>
+        <p>
+            <label for="username">Enter your username : </label>
+            <input type="text" id="username" placeholder="username" name="username">
+        </p>
+        <p>
+            <label for="pass">Enter your password : </label>
+            <input id="pass" type="password" placeholder="password" name="password">
+        </p>
+        <p>
+            <label for="color">Set the Color : </label>
+            <input id="color" type="color" name="color">
+        </p>
+        <p>
+            <label for="range">Set the Range : </label>
+            <input id="range" type="range" name="range">
+        </p>
+        <p>
+            <label for="num">Enter the number : </label>
+            <input id="num" type="number" placeholder="Enter a number" name="number">
+        </p>
+
+        <button>submit</button>
+
+        <input type="submit">
+
+
+    </form>
+
+    <hr>
+
+    <button>outside form </button>
+
+    <h1>Hijacking Searches</h1>
+
+    <h2>Search through Reddit </h2>
+    <form action="https://www.reddit.com/search/">
+        <input type="text" name="q">
+        <button>Search on Reddit</button>
+    </form>
+
+    <h2>Search through Google</h2>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search on Google</button>
+        </input>
+    </form>
+
+    <h1>CHECK BOX</h1>
+
+    <p>Who won last Fifa worldcup : </p>
+
+    <div>
+        <input type="checkbox" id="Argentina" name="Argentina" checked>
+        <label for="Argentina">Argentina</label>
+        </input>
+    </div>
+
+    <div>
+        <input type="checkbox" id="France" name="France">
+        <label for="France">France</label>
+        </input>
+    </div>
+
+    <h2>Radio box </h2>
+
+    <form action="/birds">
+        <input type="checkbox" id="agree" name="agree_toss">
+        <label for="agree">I agree </label>
+        </input>
+
+        <p>
+            <input type="radio" id="ok1" name="size" value="small">
+            <label for="ok1">small</label>
+        </p>
+        <p>
+            <input type="radio" id="ok2" name="size" value="medium">
+            <label for=ok2>medium</label>
+        </p>
+
+        <p>
+            <input type="radio" id="ok3" name="size" value="large">
+            <label for="ok3">large</label>
+        </p>
+
+        <h3>Drop-Down Menu</h3>
+
+        <label for="menu">Select the menu </label>
+        <select name="menu" id="menu">
+            <option value="Coffee">Coffee</option>
+            <option value="Fries">Fries</option>
+            <option value="Fish">Fish</option>
+        </select>
+
+        <h3>Range Selector</h3>
+
+        <p>
+            <label for="vol">Volume : </label>
+            <input type="range" min="1" max="100" step="5" name=" volume">
+        </p>
+
+        <h3>Multi line Text entry</h3>
+        <p>
+            <label for="entry">Enter Detials : </label>
+            <textarea id="entry" name="text" rows="10" cols="30" placeholder="Type here"></textarea>
+        </p>
+
+        <button>submit</button>
+
+
+
+    </form>
+
+    <h3>Validation Demo</h3>
+
+    <form action="https://www.google.com/search">
+        <label for="name">Enter your name</label>
+        <input type="text" id="name" name="q" placeholder="username" minlength="1" maxlength="10" required>
+
+
+        <p>
+            <label for="email">Write your email</label>
+            <input type="email" id="email" required>
+        </p>
+
+        <p>
+            <lable for="url">Enter url</lable>
+            <input type="url" id="url" required>
+        </p>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
